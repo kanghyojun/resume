@@ -85,11 +85,11 @@ Software Maestro mentee 2010.07 -- 2010.12
 
 SWMaestro 연구 프로젝트
     - `Bendy`_ : Python LISP 구현체 
-    - `pykey`_ : Python Key/Value Storage
+    - `Pykey`_ : Python Key/Value Storage
     - tweetQuiz : twitter API를 이용한 mash up
 
 .. _Bendy: http://bitbucket.org/admire93/bendy
-.. _pykey: http://github.com/admire93/pykey
+.. _Pykey: http://github.com/admire93/pykey
 
 IWOP (선린인터넷고등학교 웹개발동아리) 2008.03 - 2010.06 
     선린인터넷고등학교 교내 웹개발동아리, 2009년도 10기 부장을 맡아서 
@@ -113,11 +113,16 @@ IWOP (선린인터넷고등학교 웹개발동아리) 2008.03 - 2010.06
 ``````````
 - mintpresso( Affogato )
 - soran
-- seedle
-- seedle prototype
-- Bendy
-- pykey
+- `seedle`_
+- `seedle prototype`_
+- `bendy`_
+- `pykey`_
 - word ( 일본어 단어 분석 )
 - 0pen 동아리 forum
 - play 교내대회 출전
 - 라이브러리들?  awesomeDate.js, rottenClam
+
+.. _seedle: ./portfolio/seedle.html
+.. _bendy: ./portfolio/bendy.html 
+.. _pykey: ./portfolio/pykey.html 
+.. _seedle prototype: ./portfolio/seedle_prototype.html
