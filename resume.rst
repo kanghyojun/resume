@@ -64,6 +64,9 @@ Summary
 경력 사항
 ---------
 
+`The Beatpacking Company`_ 인턴 2013.07 --
+    비트패킹컴퍼니에서 인턴으로 일함.
+    
 `Seedle`_ Co-Founder 2012.04 -- 
     자신의 사진을 다른 사람과 공유하는 소셜 큐레이션 서비스. 스타트업 팀을
     만들어 2012년 4월부터 유지해오고있음. 웹 서비스 서버, DB 개발.
@@ -72,6 +75,7 @@ Summary
     고등학교 친구들이 모여서 만든 팀. 외주나 같이 프로젝트를 진행하고 있음.
     씨들팀도 Trinity studio팀에서 생겼음. 
 
+.. _The Beatpacking Company: http://thebeatpacking.com
 .. _Seedle: http://theseedle.com
 .. _Trinity Studio: http://trinity.so
 
