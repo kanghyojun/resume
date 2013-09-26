@@ -3,6 +3,8 @@ Seedle API
 
 Seedle API에 Request Content는 JSON으로 보내져야한다. 현재는 Response 값도 JSON 밖에 없다. (추후에 XML이나 다른 것 구현.)
 
+::
+
     {
       "content": {
         "type": …
@@ -274,7 +276,8 @@ Content
       "accept": "Comment"
     }
 
- Collection
+
+Collection
 ---------------
 
 ``CATEGORY`` 에 허용되는 값은 다음과 같다.
@@ -360,6 +363,8 @@ POST /collection/filter , type - findAllByOwnerOrderByModifiedAt
 Content
 ~~~~~~~~~~~
 
+::
+
     {
       "content": {
         "type": "findAllByOwner"
@@ -392,8 +397,10 @@ POST ? PUT /:identity
 
 :identity 유저의 정보를 업데이트한다.
 
- Content
+Content
 ~~~~~~~~~~
+
+::
 
     {
       "content": {
@@ -405,45 +412,45 @@ POST ? PUT /:identity
       "accept": "ACCEPT"
     }
     
- GET  /:url/follow
+GET  /:url/follow
 ````````````````````````````````````````````````````````````````````
 
 
 :url 의 유저가 관심을 가지고있는 사람을 가져옵니다.
 
- GET /:url/follower
+GET /:url/follower
 ````````````````````````````````````````````````````````````````````
 
 
 :url 의 유저에게 관심을 가지고있는 사람을 가져옵니다.
 
- POST /:url/follow
+POST /:url/follow
 ````````````````````````````````````````````````````````````````````
 
 
 access_token의 유저가  :url 유저에게 관심을 갖습니다.
 
- Query Parametor
+Query Parametor
 ~~~~~~~~~~~~~~~~~~
   
   - access_token
 
- DELETE /:url/follow
+DELETE /:url/follow
 ````````````````````````````````````````````````````````````````````
 
 
 access_token의 유저가 :url 유저에게 관심을 끊습니다.
 
- Query Parametor
+Query Parametor
 ~~~~~~~~~~~~~~~~~~~~~
   
   - access_token   
 
- Photo
+Photo
 ------------
 
 
- GET /photo/:id/:width x :height
+GET /photo/:id/:width x :height
 ````````````````````````````````````````````````````````````````````
 
 :id 사진의 썸네일을 가지고온다.(eg `http://theseedle.com/photo/1/200x200`)
@@ -453,15 +460,15 @@ width나 height중 한 값이 0이면, 아닌값 기준으로 사이즈를 맞�
 (eg. 만약 1200x600 사진이라면, ``/photo/1/200x0`` 을 요청하면 200x100 사이즈의 섬네일을 가지고올수있고, ``/photo/1/0x200`` 을 요청하면 400x200 사이즈의 섬네일을 가지고온다.)
 
 
- Notification
---------------------------------------------------------------------
+Notification
+-------------------------------------------------------------------
 
- GET /notification
+GET /notification
 ````````````````````````````````````````````````````````````````````
 
 유저의 모든 알림을 가지고온다. 유저 인증이 필요하다.
 
- GET /notification/listen 
+GET /notification/listen 
 ````````````````````````````````````````````````````````````````````
 
 유저의 알림을 실시간으로 가지고온다. 유저 인증이 필요하다.
