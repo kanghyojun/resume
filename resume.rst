@@ -31,7 +31,7 @@
 `H Labs`_ 서버 개발자 2014.10 --
     H Labs 에서 서버 개발 및 독립 프로젝트(채널 매니저) 개발
 
-`The Beatpacking Company`_ 인턴 2013.07 -- 2013.11
+`Beatpacking Company`_ 인턴 2013.07 -- 2013.11
     비트패킹컴퍼니에서 인턴으로 일함 주로 서버 개발 및 내부 서비스 개발에 참여.
 
 `ns Linkle 공군 공감 프로젝트`_ 개발자 2013.06 -- 2013.07
@@ -48,8 +48,7 @@
 `Software Maestro`_ mentee 2010.07 -- 2010.12
     NIPA가 진행하는 `Software Maestro`_ 1기 연수생으로 참여.
 
-.. _The Beatpacking Company: http://thebeatpacking.com
-.. _Seedle: http://theseedle.com
+.. _Beatpacking Company: http://beatpacking.com
 .. _Trinity Studio: http://trinity.so
 .. _Software Maestro: http://www.swmaestro.kr/main.do
 .. _ns Linkle 공군 공감 프로젝트: http://www.afplay.kr
