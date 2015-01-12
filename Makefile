@@ -1,12 +1,12 @@
-PORTFOLIODIR := ./portfolio
+PORTFOLIODIR := ./projects
 RSTFILE := rst
 HTMLFILE := html
 PANDOC := pandoc
-CSSFILE := ./style.css 
+CSSFILE := ./style.css
 RESUMENAME := resume
 RESUMEFILE := ./$(RESUMENAME).$(RSTFILE)
 RESUMEDEST := ./$(RESUMENAME).$(HTMLFILE)
-PANDOCOPT := --base-header=2 -f $(RSTFILE) -t $(HTMLFILE) -s -S 
+PANDOCOPT := --base-header=2 -f $(RSTFILE) -t $(HTMLFILE) -s -S
 
 SOURCE := $(shell find $(PORTFOLIODIR) -name "*.$(RSTFILE)")
 HTMLSOURCE := $(patsubst %.$(RSTFILE), %.$(HTMLFILE), $(SOURCE))
@@ -14,7 +14,7 @@ HTMLSOURCE := $(patsubst %.$(RSTFILE), %.$(HTMLFILE), $(SOURCE))
 all: resume portfolio
 
 resume:
-	@$(PANDOC) $(PANDOCOPT) -c $(CSSFILE) -o $(RESUMEDEST) $(RESUMEFILE) 
+	@$(PANDOC) $(PANDOCOPT) -c $(CSSFILE) -o $(RESUMEDEST) $(RESUMEFILE)
 
 portfolio: $(HTMLSOURCE)
 

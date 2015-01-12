@@ -9,7 +9,7 @@
     강효준
 
 핸드폰
-    +82 10-8733-2439
+    010-8733-2439
 
 이메일
     hyojun@admire.kr
@@ -22,14 +22,14 @@
 
     - 언어: Python, Scala, PHP, Javascript, HTML, CSS
     - 웹 프레임워크: Flask, Play! Framework, CodeIgniter
-    - DB: PostgreSQL, MongoDB, MySQL
+    - DB: PostgreSQL, MongoDB, MySQL, SQLAlchmey
     - 도구: Vim, Git, Mercurial
 
 경력 사항
 ---------
 
-`H Labs`_ 개발자 2014.10 --
-    H Labs 에서 서버 개발 및 독립 프로젝트 개발
+`H Labs`_ 서버 개발자 2014.10 --
+    H Labs 에서 서버 개발 및 독립 프로젝트(채널 매니저) 개발
 
 `The Beatpacking Company`_ 인턴 2013.07 -- 2013.11
     비트패킹컴퍼니에서 인턴으로 일함 주로 서버 개발 및 내부 서비스 개발에 참여.
@@ -53,6 +53,7 @@
 .. _Trinity Studio: http://trinity.so
 .. _Software Maestro: http://www.swmaestro.kr/main.do
 .. _ns Linkle 공군 공감 프로젝트: http://www.afplay.kr
+.. _H Labs: http://zari.me
 
 학력
 ----
@@ -63,3 +64,23 @@
 
 프로젝트
 -----------
+- `tento`_ - 자신의 음악 취향을 분석해서 취향에 맞는 음악을 재생해주는 앱
+- `delivery van`_ - 자신이 좋아하는 아티스트의 앨범 출시를 확인할 수 있는 서비스
+- `공군 공감 프로젝트`_ - afplay.kr 의 디자인 리뉴얼 프로젝트
+- `The King of Typer`_ - 코딩을 재밌게 할 수 있도록 도와주는 에디터.
+- `소란`_ - mintpresso 기반으로 자신이 들었던 노래의 기록을 남기는 서비스
+- `mintpresso`_ - http://github.com/mintpresso, graph db의 기능을 가져와서
+  모든 것을 로깅하는 서비스
+- `seedle`_ - 자신의 관심사를 사진으로 공유하는 소셜 큐레이션 서비스.
+- `pykey`_ - SW마에스트로 프로젝트, key/value storage를 python으로 개발
+- `bendy`_ - SW마에스트로 프로젝트, LISP 방언을 python으로 개발
+
+.. _`tento`: ./projects/tento.html
+.. _`delivery van`: ./projects/dv.html
+.. _`공군 공감 프로젝트`: http://www.afplay.kr
+.. _`The King of Typer`: ./projects/kingoftyper.html
+.. _`소란`: ./projects/soran.html
+.. _`mintpresso`: http://github.com/mintpresso
+.. _`seedle`: ./projects/seedle.html
+.. _`pykey`: ./projects/pykey.html
+.. _`bendy`: ./projects/bendy.html
