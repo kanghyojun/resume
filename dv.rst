@@ -11,7 +11,8 @@ Delivery van
     자신이 좋아하는 아티스트의 앨범이 출시되는 것을 바로 알 수 있도록
     기획된 서비스입니다. 좋아하는 아티스트에 좋아요 버튼을 누르면
     자신의 페이지에 좋아하는 아티스트의 앨범이 표시됩니다.
-    `레파지트리`_ 에서 코드를 확인하실 수 있습니다.
+    `레파지트리`_ (http://github.com/admire93/delivery_van)
+    에서 코드를 확인하실 수 있습니다.
 
 
 .. _`레파지트리`: http://github.com/admire93/delivery_van
@@ -22,7 +23,7 @@ Delivery van
 
 - 언어: Python
 - 프레임워크: Flask
-- 라이브러리: SQLAlchmey, alembic, jinja2
+- 라이브러리: SQLAlchmey, alembic
 
 팀 구성과 역할
 ----------------

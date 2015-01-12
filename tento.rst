@@ -11,9 +11,10 @@ tento
     2014 8th 공개소프트웨어 개발자대회에 참여하기위해 개발한 앱입니다.
     사용자가 노래를 선곡할 필요없이 사용자의 기분에 맞춰서 다음 노래를
     재생하는 앱입니다. 학교 동아리 팀으로 참여했습니다. 코드는
-    `github`_ 에 공개되어있습니다.
+    `레파지트리`_ (http://github.com/nl-seoultech/tento-server) 에
+    공개되어있습니다.
 
-.. _github: http://github.com/nl-seoultech/tento-server
+.. _레파지트리: http://github.com/nl-seoultech/tento-server
 
 사용 기술
 -----------

@@ -12,9 +12,10 @@ soran
     남기는 서비스입니다. 처음 기능을 기획하고 구현할때 mintpresso의 데모
     프로젝트로 만들자고 결정하게되어, 노래의 기록을 남기거나 아티스트, 앨범 정보
     등을 저장할때 mintpressod에 저장합니다. 현재 서비스는 하고있지않지만,
-    코드는 `레파지트리`_ 에 저장하고 있습니다.
+    코드는 `레파지트리`_ (http://github.com/admire93/soran) 에 저장하고
+    있습니다.
 
-.. _레파지트리: https://github.com/admire93/soran
+.. _레파지트리: http://github.com/admire93/soran
 
 사용 기술
 -----------

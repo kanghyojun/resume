@@ -8,9 +8,10 @@ Bendy
 
 프로젝트 소개
     SW Maestro 연수 과정에서 진행한 LISP을 Python으로 구현한 연구 프로젝트
-    입니다. SICP 책의 내용을 기본으로 언어의 구현 과정을 습득하고 스코프를 
+    입니다. SICP 책의 내용을 기본으로 언어의 구현 과정을 습득하고 스코프를
     이해할 수 있었습니다. 오픈소스로 진행되었기때문에 개발 과정과 소스코드를
-    `Bitbucket repository`_ 에서 보실 수 있습니다.
+    `Bitbucket repository`_ (http://bitbucket.org/admire93/bendy)
+    에서 보실 수 있습니다.
 
 .. _Bitbucket repository: http://bitbucket.org/admire93/bendy
 

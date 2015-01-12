@@ -10,10 +10,11 @@ Pykey
     python으로 key/value storage를 구현했습니다. 텔넷으로 서버에 접속해서
     사용할 수 있도록 구현하였고, 클라이언트는 이전 프로젝트에 구현했던 bendy를
     이용해서 제어할 수 있게했습니다. set, get, redo, undo 같은 간단한 명령어들을
-    이용해서 key/value storage를 사용할 수 있습니다. 오픈소스로 진행했기때문에 
-    `github repository`_ 에서 소스코드를 보실 수 있습니다
+    이용해서 key/value storage를 사용할 수 있습니다. 오픈소스로 진행했기때문에
+    `레파지트리`_ (https://github.com/admire93/pykey) 에서
+    소스코드를 보실 수 있습니다
 
-.. _github repository: https://github.com/admire93/pykey
+.. _레파지트리: https://github.com/admire93/pykey
 
 사용 기술
 -----------
