@@ -75,12 +75,12 @@
 - `pykey`_ - SW마에스트로 프로젝트, key/value storage를 python으로 개발
 - `bendy`_ - SW마에스트로 프로젝트, LISP 방언을 python으로 개발
 
-.. _`tento`: ./projects/tento.html
-.. _`delivery van`: ./projects/dv.html
+.. _`tento`: ./tento.html
+.. _`delivery van`: ./dv.html
 .. _`공군 공감 프로젝트`: http://www.afplay.kr
-.. _`The King of Typer`: ./projects/kingoftyper.html
-.. _`소란`: ./projects/soran.html
+.. _`The King of Typer`: ./kingoftyper.html
+.. _`소란`: ./soran.html
 .. _`mintpresso`: http://github.com/mintpresso
-.. _`seedle`: ./projects/seedle.html
-.. _`pykey`: ./projects/pykey.html
-.. _`bendy`: ./projects/bendy.html
+.. _`seedle`: ./seedle.html
+.. _`pykey`: ./pykey.html
+.. _`bendy`: ./bendy.html
