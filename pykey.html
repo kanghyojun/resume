@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Pykey</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="././style.css" type="text/css" />
+</head>
+<body>
+<div id="header">
+<h1 class="title">Pykey</h1>
+</div>
+<hr />
+<dl>
+<dt>기간</dt>
+<dd><p>2010.09 – 2010.10</p>
+</dd>
+<dt>프로젝트 소개</dt>
+<dd><p>python으로 key/value storage를 구현했습니다. 텔넷으로 서버에 접속해서 사용할 수 있도록 구현하였고, 클라이언트는 이전 프로젝트에 구현했던 bendy를 이용해서 제어할 수 있게했습니다. set, get, redo, undo 같은 간단한 명령어들을 이용해서 key/value storage를 사용할 수 있습니다. 오픈소스로 진행했기때문에 <a href="https://github.com/admire93/pykey">레파지트리</a> (<a href="https://github.com/admire93/pykey" class="uri">https://github.com/admire93/pykey</a>) 에서 소스코드를 보실 수 있습니다</p>
+</dd>
+</dl>
+<h2 id="사용-기술">사용 기술</h2>
+<ul>
+<li>언어: Python</li>
+<li>라이브러리: <a href="http://docs.python.org/2/library/marshal.html">marshal</a> (Internal Python object serialization), thread</li>
+</ul>
+<h2 id="성과">성과</h2>
+<p>서버-클라이언트를 구성하면서 소켓 프로그래밍을 할 수 있었고, 클라이언트가 여러개 붙어야했기 때문에 multi-thread와 concurrent 프로그래밍도 배울 수 있었습니다. 물론 key/value storage는 DB와 비슷하게 실제로 파일시스템에 데이터를 저장해야하기 때문에 객체를 직렬화해서 파일시스템에 쓰고, 처리 속도 증가를 위해서 메모리에 캐시를 하는 등의 처리 전략을 짜는 방법도 배울 수 있었습니다.</p>
+<h2 id="실행-화면">실행 화면</h2>
+<p>서버 실행</p>
+<p><img src="./images/pykey/server.png" alt="image" /></p>
+<p>클라이언트 실행</p>
+<p><img src="./images/pykey/client.png" alt="image" /></p>
+</body>
+</html>
