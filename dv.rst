@@ -34,4 +34,8 @@ Delivery van
 실행 모습
 ----------------
 
-.. image:: ./images/dv/dv.png
+.. image:: ./images/dv/me.png
+
+.. image:: ./images/dv/artist.png
+
+.. image:: ./images/dv/albums.png
