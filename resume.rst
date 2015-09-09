@@ -20,15 +20,18 @@
 기술
 --------
 
-    - 언어: Python, Scala, PHP, Javascript, HTML, CSS
-    - 웹 프레임워크: Flask, Play! Framework, CodeIgniter
-    - DB: PostgreSQL, MongoDB, MySQL, SQLAlchmey
+    - 언어: Python, Scala, Javascript, HTML, CSS
+    - 웹 프레임워크: Flask, Play! Framework
+    - DB: PostgreSQL, MySQL, SQLAlchmey
     - 도구: Vim, Git, Mercurial
 
 경력 사항
 ---------
 
-`H Labs`_ 서버 개발자 2014.10 --
+`Spoqa`_ 프로그래머 2015.2 --
+    스포카에서 프로그래머로 재직중
+
+`H Labs`_ 서버 개발자 2014.10 -- 2015.1
     H Labs 에서 서버 개발 및 독립 프로젝트(채널 매니저) 개발
 
 `Beatpacking Company`_ 인턴 2013.07 -- 2013.11
