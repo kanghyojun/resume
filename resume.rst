@@ -1,24 +1,29 @@
-======
-이력서
+강효준
 ======
 
-개인정보
---------
+백엔드 소프트웨어 엔지니어
+--------------------------
 
-이름
-    강효준
+좋은 제품을 함께 만들며 성장하고 싶습니다.
+오픈 소스로 더 나은 소프트웨어를 만들고 싶습니다.
+
+개인 정보
+---------
 
 핸드폰
-    010-8733-2439
+    +82 10-8733-2439
 
 이메일
-    hyojun@admire.kr
+    iam.kanghyojun@gmail.com
+
+GitHub
+    https://github.com/kanghyojun
 
 웹사이트
-    http://admire.kr
+    http://kanghyojun.org
 
-기술
---------
+LinkedIn
+    https://www.linkedin.com/in/kanghyojun/
 
     - 언어: Python, Scala, Javascript, HTML, CSS
     - 웹 프레임워크: Flask, Play! Framework
