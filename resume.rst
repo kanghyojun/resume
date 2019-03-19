@@ -20,7 +20,7 @@ GitHub
     https://github.com/kanghyojun
 
 웹사이트
-    http://kanghyojun.org
+    https://kanghyojun.org
 
 LinkedIn
     https://www.linkedin.com/in/kanghyojun/
@@ -44,7 +44,7 @@ LinkedIn
 - `Seedle`_ 공동 창업자, 백엔드 프로그래머  2012.04 -- 2013.03
 - `Software Maestro`_ 멘티 2010.07 -- 2010.12
 
-.. _Spoqa: htts://spoqa.com
+.. _Spoqa: https://spoqa.com
 .. _Beatpacking Company: http://beatpacking.com
 .. _Trinity Studio: http://trinity.so
 .. _Software Maestro: http://www.swmaestro.kr/main.do
@@ -99,16 +99,19 @@ LinkedIn
 - 도도 포인트 스토어 (TypeScript, React): 손님의 핸드폰 번호로 적립할 수 있는
   제품입니다. 라인과 도도 포인트의 연동 프로젝트를 진행하며 기능 구현,
   버그 수정과 운영을 진행했습니다.
-- 도도 인사이트 (Python, Flask, SQLAlchemy): 도도 인사이트는 크게 두가지
-  기능을 제공합니다. 첫번째로 도도 포인트 스토어로 모은 손님 정보를 점주가
+- 도도 인사이트 (Python, Flask, SQLAlchemy): 도도 인사이트는 크게 두 가지
+  기능을 제공합니다. 도도 포인트 스토어로 모은 손님 정보를 점주가
+  쉽게 볼 수 있도록 CRM 기능을 제공합니다. 그리고 스포카의 직원이
+  쉽게 운영할 수 있도록 도와주는 백오피스 기능을 제공합니다. 이 서비스를
+  운영하면서 스포카에 전반적인 서비스 운영을 서포트했습니다.
 - 도도 메시지 (Python, JavaScript, Flask, SQLAlchemy, Jinja, React):
   도도 포인트로 수집한 고객 데이터를 기반으로 마케팅을 진행할 수 있는
   서비스입니다. 제품 릴리스 초반부터 개발에 참여했습니다. 카카오톡과 연동하는
-  작업이나 모바일 쿠폰 기능 구현을 하였습니다. 운영을 하며
-  대량의 메시지를 안정적으로 전송할 수 있도록 고려하여 개선했습니다.
+  작업이나 모바일 쿠폰 기능 구현을 하였습니다. 서비스 운영 중에
+  대량의 메시지를 안정적으로 전송할 수 있도록 개선했습니다.
 - 도도 매니저 (TypeScript, React): 점주가 인사이트나 메시지의 모든 정보를
-  한 곳에서 볼 수 있도록 만든 서비스입니다. 도도 매니저에 모든 메시지 기능의
-  초기 구현과 이후 운영에 참여했습니다.
+  한 곳에서 볼 수 있도록 만든 서비스입니다. 도도 매니저의 포함된
+  모든 메시지 기능의 초기 구현과 이후 운영에 참여했습니다.
 
 H Labs
 ~~~~~~
