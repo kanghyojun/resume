@@ -17,10 +17,10 @@
     iam.kanghyojun@gmail.com
 
 GitHub
-    https://github.com/kanghyojun
+    https://github.com/kanghyojun/
 
 웹사이트
-    https://kanghyojun.org
+    https://kanghyojun.org/
 
 LinkedIn
     https://www.linkedin.com/in/kanghyojun/
