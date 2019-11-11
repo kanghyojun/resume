@@ -22,6 +22,9 @@ GitHub
 웹사이트
     https://kanghyojun.org/
 
+LinkedIn
+    https://www.linkedin.com/in/kanghyojun/
+
 
 기술
 ----
