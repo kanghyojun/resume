@@ -154,14 +154,6 @@ Software Maestro
 
 과학기술정보통신부와 정보통신기술진흥센터에서 주관하고,
 한국정보산업연합회에서 운영하는 소프트웨어 마에스트로 과정 1기로 활동했습니다.
-소프트웨어 마에스트로는 국내 소프트웨어 전문가들을 만들자는 취지하에
-운영되고 있습니다.
-
-- `pykey`_ (Python): Key-value 스토리지를 Python으로 개발했습니다.
-- `bendy`_ (Python): LISP 방언을 Python으로 개발했습니다.
-
-.. _`pykey`: ./pykey.html
-.. _`bendy`: ./bendy.html
 
 
 발표
