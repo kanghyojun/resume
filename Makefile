@@ -6,7 +6,7 @@ all: html
 
 html: cv_html resume_html
 
-pdf: cv_pdf resume_html
+pdf: cv_pdf resume_pdf
 
 resume_html:
 	pandoc --base-header=2 -f rst+smart -t html -s -c ./css/resume.css -o resume.html resume.rst
