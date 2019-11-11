@@ -4,8 +4,9 @@
 소프트웨어 엔지니어
 -------------------
 
-좋은 제품을 함께 만들며 성장하고 싶습니다.
-오픈 소스로 더 나은 소프트웨어를 만들고 싶습니다.
+오픈 소스를 통해 더 좋은 소프트웨어를 만듭니다.
+고객이 겪고 있는 불편한 문제를 좋은 방법으로 해결할 수 있도록 서비스를 구현합니다.
+분산 서버 환경에서 제품을 안정적으로 운영할 수 있도록 고민합니다.
 
 개인 정보
 ---------
@@ -26,7 +27,7 @@ GitHub
 기술
 ----
 
-- 언어: Python, Haskell, TypeScript, JavaScript, HTML, CSS, Scala
+- 언어: Python, Haskell, TypeScript, JavaScript
 - 데이터베이스: PostgreSQL, MySQL
 - 프레임워크: Flask, SQLAlchemy, React
 - 도구: Neovim, Git
@@ -73,6 +74,8 @@ GitHub
   코드입니다. 오픈 소스로 친구와 같이 만들었던 GraphDB `MINTPRESSO`_\ 를
   API 서버에서 사용해보고, 크롬 확장 프로그램을 만들어 노래를 기록하도록
   만들었습니다.
+- `libplanet`_: P2P 온라인 게임을 위한 C#/.NET 블록체인 코어
+- `s2protocol`_: 블리자드에서 제공하는 스타크래프트2 리플레이 분석 라이브러리
 
 .. _`니름`: https://github.com/nirum-lang/nirum
 .. _`dodotable`: https://github.com/spoqa/dodotable
@@ -81,6 +84,8 @@ GitHub
 .. _`소란`: https://github.com/team-soran
 .. _`MINTPRESSO`: https://github.com/mintpresso
 .. _`color-theif`: https://github.com/lokesh/color-thief/
+.. _`libplanet`: https://github.com/planetarium/libplanet
+.. _`s2protocol`: https://github.com/Blizzard/s2protocol/
 
 
 제품과 프로젝트
