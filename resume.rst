@@ -167,6 +167,8 @@ Software Maestro
 발표
 ----
 
+- 스포카 컨퍼런스 발표: `좌충우돌 도도 포인트 운영기 <https://www.slideshare.net/kanghyojun/ss-188824493>`_
+- 파이콘 한국 2019 발표: `테스트 미신 <https://docs.google.com/presentation/d/19tGPfRmH27uG0ClecJO0tiLMYOFwGxcaYx6Hxdf2aaU/edit#slide=id.p>`_
 - 파이콘 한국 2018 발표: `나도 할 수 있다 오픈 소스! — setup.py에서 PyPI까지 <https://www.slideshare.net/kanghyojun/ss-110767619>`_
 - 파이콘 한국 2017 발표: `니름: 쉬운 SOA 단위 테스트 <https://www.slideshare.net/kanghyojun/soa-78799290>`_
 - 파이콘 한국 2016 라이트닝 토크: `스포카와 오픈소스, 2016 PyCon APAC <https://github.com/kanghyojun/2016-pycon-lightning-talk>`_
