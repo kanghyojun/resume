@@ -1,24 +1,21 @@
-RSTFILE := rst
 HTMLFILE := html
-PANDOC := pandoc
 CSSFILE := ./style.css
-RESUMENAME := resume
-RESUMEFILE := ./$(RESUMENAME).$(RSTFILE)
-RESUMEDEST := ./$(RESUMENAME).$(HTMLFILE)
-PANDOCOPT := --base-header=2 -f $(RSTFILE) -t $(HTMLFILE) -s -S
+PANDOCOPT := --base-header=2 -f rst+smart -t $(HTMLFILE) -s
 
-SOURCE := $(shell find . -name "*.$(RSTFILE)")
-HTMLSOURCE := $(patsubst %.$(RSTFILE), %.$(HTMLFILE), $(SOURCE))
+all: html
 
-all: rst_files resume_to_index
+html: cv_html resume_html
 
-resume_to_index:
-	cp resume.html index.html
+pdf: cv_pdf resume_pdf
 
-rst_files: $(HTMLSOURCE)
+resume_html:
+	pandoc --base-header=2 -f rst+smart -t html -s -c ./css/resume.css -o resume.html resume.rst
 
-$(HTMLSOURCE): %.$(HTMLFILE): %.$(RSTFILE)
-	@$(PANDOC) $(PANDOCOPT) -c ./$(CSSFILE) -o $@ $<
+resume_pdf:
+	pandoc --base-header=2 -f rst+smart -s -c ./css/resume.css --pdf-engine=weasyprint -o resume.pdf resume.rst
 
-clean:
-	rm *.$(HTMLFILE)
+cv_html:
+	pandoc --base-header=2 -f rst+smart -t html -s -c ./css/cv.css -o cv.html cv.rst
+
+cv_pdf:
+	pandoc --base-header=2 -f rst+smart -s -c ./css/cv.css --pdf-engine=weasyprint -o cv.pdf cv.rst
