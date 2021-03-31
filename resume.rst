@@ -38,7 +38,7 @@ Spoqa (https://spoqa.com/) : 풀스택 프로그래머 2015.2 -- 2020.12
 - Beatpacking Company : 백엔드 프로그래머 인턴 2013.06 -- 2013.12
 - Seedle (http://trinity.so/) : 공동 창업자, 프로그래머  2012.04 -- 2013.03
   - 자신의 사진을 다른 사람과 공유하는 소셜 큐레이션 서비스입니다.
-- Software Maestro (https://www.swmaestro.kr/) : 멘티 2010.07 -- 2010.12
+- Software Maestro (https://www.swmaestro.kr/) : 1기 멘티 2010.07 -- 2010.12
 
 기술
 ----
